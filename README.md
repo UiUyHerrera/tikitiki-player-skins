@@ -1,20 +1,39 @@
-# TikiTiki skins
+# TikiTiki Player Skins
 
-Skins y capas de los jugadores del server TikiTiki.
+Repositorio de skins y capas de los jugadores del servidor TikiTiki. Los archivos se organizan por jugador para que puedan mantenerse y actualizarse fácilmente.
+
+[English version](#english)
 
 ## Estructura
 
-| Carpeta | Qué tiene |
-|---|---|
-| `players/` | Una skin por jugador, guardada como `<nick>.png` |
-| `capes/` | Capas opcionales, guardadas como `<nick>.png` |
+- players/: skins de jugadores, con el nombre de archivo igual al nick y extensión PNG.
+- capes/: capas opcionales, con el mismo criterio de nombres.
 
-## Formato
+## Formatos
 
-- Skin: PNG de 64x64. Modelo clásico o fino.
-- Capa: PNG de 64x32.
-- El nombre del archivo tiene que ser igual al nick del jugador, respetando mayúsculas.
+- Skin: PNG de 64 × 64 píxeles; compatible con los modelos clásico y fino.
+- Capa: PNG de 64 × 32 píxeles.
+- Respeta exactamente las mayúsculas y minúsculas del nick.
 
-## Agregar o cambiar una skin
+## Agregar o actualizar archivos
 
-Sube el PNG a `players/` con tu nick como nombre. Si ya existe, reemplázalo. Para la capa, lo mismo en `capes/`.
+Sube la skin a players/<nick>.png. Para una capa opcional, usa capes/<nick>.png. Si el archivo ya existe, reemplázalo por la nueva versión.
+
+## English
+
+A repository for the TikiTiki server players' skins and capes. Files are organized per player to make updates straightforward.
+
+### Structure
+
+- players/: player skins, named after the player's nickname and saved as PNG files.
+- capes/: optional capes, following the same naming convention.
+
+### Formats
+
+- Skin: 64 × 64 PNG; supports classic and slim models.
+- Cape: 64 × 32 PNG.
+- Match the player's nickname exactly, including capitalization.
+
+### Add or update files
+
+Upload a skin as players/<nickname>.png. For an optional cape, use capes/<nickname>.png. Replace the existing file to update it.
