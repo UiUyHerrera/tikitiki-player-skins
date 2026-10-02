@@ -17,7 +17,7 @@ Repositorio de skins y capas de los jugadores del servidor TikiTiki. Los archivo
 
 ## Agregar o actualizar archivos
 
-Sube la skin a players/<nick>.png. Para una capa opcional, usa capes/<nick>.png. Si el archivo ya existe, reemplázalo por la nueva versión.
+Sube la skin como players/nickname.png. Para una capa opcional, usa capes/nickname.png. Si el archivo ya existe, reemplázalo por la nueva versión.
 
 ## English
 
@@ -36,4 +36,4 @@ A repository for the TikiTiki server players' skins and capes. Files are organiz
 
 ### Add or update files
 
-Upload a skin as players/<nickname>.png. For an optional cape, use capes/<nickname>.png. Replace the existing file to update it.
+Upload a skin as players/nickname.png. For an optional cape, use capes/nickname.png. Replace the existing file to update it.
